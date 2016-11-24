@@ -1,7 +1,10 @@
+![ReadersAgainstDRM](img/rad-logo.png "Readers Against DRM")
+
 # The Radical Militant Manual
 
-This is really a community thing, written by the librarians [kittyhawk], [ewa4boeker] and others.
+[This is really a community thing](./readingclub-man.markdown), written by the librarians [kittyhawk], [ewa4boeker] and others.
 
+Read first and then maybe add your own experiences.
 If you found some mistakes or can help to enhance this, do not hesitate to let us know.
 
 ## License Terms
@@ -12,3 +15,22 @@ The Logo the Library uses refers to [ReadersBillofRights.info](http://readersbil
 
 [ewa4boeker]: https://github.com/ewa4boeker/
 [Nina Paley]: http://blog.ninapaley.com/
+
+## how to build
+
+in case you have the converter [pandoc](https://github.com/jgm/pandoc/) you can have it as TeX, HTML, ODT and many more;
+for PDF you will need [pdflatex with e.g. TeX live](https://tug.org/texlive/) or a tool of your choice to convert yourself.
+
+### Examples
+
+for TeX, PDF and HTML5 just start:
+
+```sh
+$ make
+```
+
+or for a single, specific target like ODT:
+
+```sh
+$ make odt
+```
