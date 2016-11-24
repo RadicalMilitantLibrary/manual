@@ -11,7 +11,7 @@
 
 Jotunbane started a Reading Club (20th of January 2010) that is called an online library and publishing system today. The name was "Jotunbane's Reading Club" until January the 30th 2016.
 It is totally free in all aspects and believes in freedom of information.
-You can [access the hidden service via Tor network](http://c3jemx2ube5v5zpg.onion/). The Code was [published on GitHub](https://github.com/RadicalMilitantLibrary/).
+You can [access the hidden service via Tor network](http://c3jemx2ube5v5zpg.onion/). The Code was [published on GitHub](https://github.com/RadicalMilitantLibrary/) by 22nd of November 2016.
 
 ![Readers Against DRM Logo by Nina Paley](img/rad-logo.png)
 
