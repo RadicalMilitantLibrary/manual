@@ -21,9 +21,11 @@ The Logo the Library uses refers to [ReadersBillofRights.info](http://readersbil
 in case you have the converter [pandoc](https://github.com/jgm/pandoc/) you can have it as TeX, HTML, ODT and many more;
 for PDF you will need [pdflatex with e.g. TeX live](https://tug.org/texlive/) or a tool of your choice to convert yourself.
 
+Please note that in Versions of Pandoc before 1.15.1 the resulting ODT was broken.
+
 ### Examples
 
-for TeX, PDF and HTML5 just start:
+for TeX, PDF, HTML5 and EPUB just start:
 
 ```sh
 $ make
