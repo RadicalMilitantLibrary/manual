@@ -9,11 +9,11 @@
 
 # Introduction
 
-Jotunbane started a Reading Club (20th January 2010) that is calles an online library and publishing system today. The name was "Jotunbane's Reading Club" until January the 30th 2016.
+Jotunbane started a Reading Club (20th of January 2010) that is called an online library and publishing system today. The name was "Jotunbane's Reading Club" until January the 30th 2016.
 It is totally free in all aspects and believes in freedom of information.
-You can [access the hidden service via Tor network](http://c3jemx2ube5v5zpg.onion/).
+You can [access the hidden service via Tor network](http://c3jemx2ube5v5zpg.onion/). The Code was [published on GitHub](https://github.com/RadicalMilitantLibrary/).
 
-![Readers Against DRM Logo by Nina Paley](ss00.png)
+![Readers Against DRM Logo by Nina Paley](img/rad-logo.png)
 
 If you are interested in some more details, in Sep 2013 there was an [interview](https://netzpolitik.org/2013/interviews-with-e-book-pirates-the-book-publishing-industry-is-repeating-the-same-mistakes-of-the-music-industry/) and 
 until the new name of the platform you could read [about](http://c3jemx2ube5v5zpg.onion/?function=about) some of his motives at the beginning:
@@ -33,8 +33,9 @@ until the new name of the platform you could read [about](http://c3jemx2ube5v5zp
 ## How to contact
 
 In case you need help or want to chat use *IRC* channel #readingclub on [OFTC](http://www.oftc.net/),
-you may also open issues on  the [git-repositories](https://gitlab.com/lazy-book-crowd/)
-or other contact data given on the website, mainly in news area. There is as *Jabber (XMPP)* or [Ricochet](https://ricochet.im/) additionally to email.
+you may want to have a look on  the [git-repository] or other contact data given on the website, concentrated under about and updated in news area. There is *Jabber (XMPP with OTR)*, Bitmessage or [Ricochet](https://ricochet.im/) additionally to email (only with PGP, the key can also be found on the library).
+
+[git-repository]: https://github.com/RadicalMilitantLibrary/
 
 ### How can you contribute?
 
@@ -121,7 +122,7 @@ Before preparing the document, you should know what kind of format is the docume
 
 Here's a screen shot.
 
-![FileProperties](ss01.png "Windows file properties")
+![FileProperties](img/ss01.png "Windows file properties")
 
 Now you can see the file type is PDF.
 To create a document you need (Apache) "Open Office"
@@ -165,11 +166,11 @@ Now I assume you have the text inserted into the template by now. If you are sti
 Now we have to format the document. This is very important. We will be using the templates embedded and custom styles.
 Click on the little tool in the toolbar as shown or press F11:
 
-![Toolbar](ss02.png "Libre&nbsp;Office Toolbar")
+![Toolbar](img/ss02.png "Libre&nbsp;Office Toolbar")
 
 The following window will open up:
 
-![StyleFormatting](ss03.png "Libre&nbsp;Office 'Style and Formatting'")
+![StyleFormatting](img/ss03.png "Libre&nbsp;Office 'Style and Formatting'")
 
 These are the styles we will be using to format the document. :)
 If you see a longer or some different list, select "Custom Styles" in the dropdown on the bottom.
@@ -227,19 +228,19 @@ Load it in your Libre/Open&nbsp;Office suite.
 * Click "Replace All".
 * Italics Fixed! :)
 
-![AltFindReplace](ss04.png "LibreOffice extension 'Alternative Find and Replace'")
+![AltFindReplace](img/ss04.png "LibreOffice extension 'Alternative Find and Replace'")
 
 Now you can see below I have the document ready with italics all fixed:
 
-![emphFixed](ss05.png "LibreOffice showing fixed italiques")
+![emphFixed](img/ss05.png "LibreOffice showing fixed italiques")
 
 Now the first line is the chapter. We will give it the style chapter. Place the cursor in the first line, selecting the text is not needed for paragraph styling:
 
-![selectedLine](ss06.png "LibreOffice selected first line")
+![selectedLine](img/ss06.png "LibreOffice selected first line")
 
 And double-click "Chapter" in "Style and Formatting" window to make this text as chapter-title.
 
-![markChapter](ss07.png "LibreOffice use paragraph style for chapter")
+![markChapter](img/ss07.png "LibreOffice use paragraph style for chapter")
 
 It should move to the center and the text size will grow larger. The font will change to Liberation-Serif 16pt.
 If it doesn't don't worry. Select the text, then right-click and select "Clear direct formatting".
@@ -255,7 +256,7 @@ Just set it to "Head2".
 
 The starting paragraph of chapter is always set to the style “ParaNoIndent”. Select the first para and do that.
 
-![firstParagraph](ss08.png "LibreOffice use paragraph style for first paragraph")
+![firstParagraph](img/ss08.png "LibreOffice use paragraph style for first paragraph")
 
 Then select all the paragraphs below it until a blank-line occurs.
 If it doesn't keep selecting the paragraphs until the start of the next chapter.
@@ -267,7 +268,7 @@ The paragraph just after the blank line, select it, and change it's style to "Pa
 Make sure to remove the blank line as "ParaBlankOver" will insert its own blank line.
 All the paragraphs after that will go to style "ParaIndent" again. Blank-line example:
 
-![nextParagraphs](ss09.png "LibreOffice use paragraph style for more paragraphs")
+![nextParagraphs](img/ss09.png "LibreOffice use paragraph style for more paragraphs")
 
 Same goes for all the chapters. Easy, eh?
 
@@ -418,7 +419,7 @@ Creating a table is quite easy. Suppose I found this in a document:
 
 Now this is okay, but I want it in a table. How do I do it? Simple. Go to Insert->Table in the Main-Menu.
 
-![createTable](ss10.png "LibreOffice insert table")
+![createTable](img/ss10.png "LibreOffice insert table")
 
 Now we just have to *stylize* it.
 Select the first-row, first-column i.e. Book. Give it the "TableStart" style.
@@ -436,9 +437,9 @@ If this is confusing, keep trying until you get it right. Or you can always ask.
 
 I have 3-rows and 2 columns. The table is here:
 
-Book(table start)	| Author (table cell)
-:-------|:------
-LOTR(table row)	| Tolkien (table cell)
+Book(table start)	        | Author (table cell)
+:---------------------------|:---------------------
+LOTR(table row)	            | Tolkien (table cell)
 The Art of War(table row)	| Sun Tzu (table end)
 
 ### HangingIndent and HangingBlankOver
@@ -460,7 +461,7 @@ Once you have done the whole document, you need to check for errors.
 * And then see if there are any foreign styles in the document like: text-body or Default Text etc.
 * Replace them with appropriate styles.
 
-![findReplaceParagraphStyles](ss11.png "LibreOffice 'Find and Replace' for Paragraph Styles")
+![findReplaceParagraphStyles](img/ss11.png "LibreOffice 'Find and Replace' for Paragraph Styles")
 
 ## Correcting the errors
 
@@ -505,7 +506,6 @@ not yet supported that well by the system.
     - search/replace with regular expression, e.g. in Geany you can escape the 1-9 decimals with <code>\d{1,9}</code>
 
 You might find out more while experimenting with the XML part.
-
 
 
 # Extras
@@ -571,9 +571,9 @@ It's mainly editing the two lines for host and port in the file <code>~/.subvers
 That's almost it.
 
 * If you are still having problems, pm  more experienced [librarians](http://c3jemx2ube5v5zpg.onion/?function=librarians).
-* If you have any suggestions for the manual, have a look on the [git-repository of the manual](https://gitlab.com/lazy-book-crowd/jrc-manual/).
-* For suggestions/feature requests for the system, think about reading other ideas or [even writing an issue](https://gitlab.com/lazy-book-crowd/lazy-reading-club/issues). If it is urgent, pm *Jotunbane*.
-* Or even better, contact via the IRC as mentioned in the section [How to contact] above.
+* If you have any suggestions for the manual, have a look on the [git-repository of the manual](https://github.com/RadicalMilitantLibrary/manual/).
+* For suggestions/feature requests for the system, think about reading other ideas or [even writing an issue](https://github.com/RadicalMilitantLibrary/www/issues). If it is urgent, simply contact *Jotunbane*.
+* contact is possible via PM, or other ways mentioned in the section [How to contact] above.
 * Use keybindings (aka shortcuts) for styles as discribed in [determine shortcuts for styles] - it will help a lot and you will be a lot faster.
 * When you have done more than 10 books. PM me. I will show you more advanced ways of accomplishing the task.
 
