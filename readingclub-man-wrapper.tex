@@ -1,0 +1,84 @@
+\documentclass[english,11pt,paper=a4,DIV=calc]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage[top=3cm,bottom=3cm]{geometry}
+\usepackage[colorlinks=false, pdfborderstyle={/S/U/W 1}]{hyperref}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{longtable}
+\usepackage{bookmark}
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{ifxetex}
+\usepackage{ifluatex}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\usepackage{url}
+\usepackage[normalem]{ulem}	%options: normalem | ULformem
+%~ \usepackage{fontspec} %requires either XeTeX or LuaTeX
+%~ \usepackage{xltxtra} %requires XeTeX
+%~ \usepackage{xunicode} %requires XeTeX
+
+\newlength{\imgwidth}
+\newlength{\imgwidthmax}
+\setlength{\imgwidthmax}{0.3\paperheight}
+
+\newcommand\scalegraphics[1]{%   
+    \settowidth{\imgwidth}{\includegraphics{#1}}%
+    \setlength{\imgwidth}{\minof{\imgwidthmax}{\minof{\imgwidth}{\textwidth}}}%
+    \includegraphics[width=0.9\imgwidth]{#1}%
+}
+
+\title{
+\begin{figure}[htbp]
+\centering
+\scalegraphics{ss00.png}
+\end{figure}
+\vspace{3cm}
+The Manual}
+
+\subtitle{for the\\Radical Militant Library}
+
+\author{\emph{kittyhawk} \& \emph{ewa4boeker}}
+
+\date{}%no date on document as noone is really updating that
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+\hspace{1cm}\\
+\vfill
+%\vspace{2cm}
+	{\scshape\Huge The Manual \par}
+	\vspace{1cm}
+	{\Large for\\Radical Militant Librarians \par}
+	
+\vfill
+
+\begin{figure}[htbp]
+\centering
+\scalegraphics{ss00.png}
+\end{figure}
+
+	\vspace{3cm}
+	\emph{by\\%
+		\vspace{1em}
+		\emph{kittyhawk} \& \emph{ewa4boeker}
+	}
+
+\newpage
+
+\end{titlepage}
+
+%\maketitle
+%\vfill
+%\tableofcontents
+
+\tableofcontents
+
+\include{./readingclub-man}
+
+\end{document}
