@@ -20,15 +20,15 @@ until the new name of the platform you could read [about](http://c3jemx2ube5v5zp
 
 &nbsp;
 
-*I'm not going to write long moral arguments about why I think a page like this simply has to exist.*
-*Lets just say I got tired of ebooks that looked like they where made in a hurry, and since I had the skill set to do something about it, well here we are. You can reach me by mail, or on [IRC](http://www.oftc.net/), if you have any complaints.*
-
-*That leads us to 'Why?'. The first reason is obvious, because I can. The second reason is a bit more complicated, but I consider this my 'proof' that current copyright legislation is doomed. I also made this because I needed it myself and nobody wanted to sell me anything even remotely similar. Which is actually weird, since this is the single most obvious thing to have a computer handle, with all the benefits that include.*
-*Instead they all wanted to sell me locked-down 'TV versions' of books that had all sorts of weird restrictions and they even had the nerve to make them more expensive than their paper alter-ego. This is called 'shooting yourself in both feet at the same time'. For one, I'm not going to pay more for a product that does less. And second, I'm not going back to paper. Now I have nowhere to buy my books (there are exceptions to this, [Baen](http://baenebooks.com) being the most obvious), so what do I do? Well, I make my own books.*
-
-*The logo is released under a Creative Commons Attribution-ShareAlike license by [Readers Bill of Rights](http://readersbillofrights.info). It is created by cartoonist and [QuestionCopyright.org](http://questioncopyright.org) artist-in-residence [Nina Paley](http://blog.ninapaley.com/). You can support Nina's work and view her amazing and Creative Commons licensed film, [Sita Sings the Blues](http://www.sitasingstheblues.com/), over at her website.*
-
-*If you sign up you can, in theory, add your own books to 'our' collection, or You can send me a request and I will find the book for you and put it up here for You. BTC donations are welcome, I will use them to pay for my internet connection, any surplus will be donated to the [Tor project](https://www.torproject.org/), account information on the bottom of every page. The fact that the internet makes this easy is not-a-bug, it is a fact. And if your businessmodel can not handle this fact, you are going out of business. The only question is, will you be allowed to destroy culture before you choke.*
+> I'm not going to write long moral arguments about why I think a page like this simply has to exist.
+> Lets just say I got tired of ebooks that looked like they where made in a hurry, and since I had the skill set to do something about it, well here we are. You can reach me by mail, or on [IRC](http://www.oftc.net/), if you have any complaints.
+> 
+> That leads us to 'Why?'. The first reason is obvious, because I can. The second reason is a bit more complicated, but I consider this my 'proof' that current copyright legislation is doomed. I also made this because I needed it myself and nobody wanted to sell me anything even remotely similar. Which is actually weird, since this is the single most obvious thing to have a computer handle, with all the benefits that include.
+> Instead they all wanted to sell me locked-down 'TV versions' of books that had all sorts of weird restrictions and they even had the nerve to make them more expensive than their paper alter-ego. This is called 'shooting yourself in both feet at the same time'. For one, I'm not going to pay more for a product that does less. And second, I'm not going back to paper. Now I have nowhere to buy my books (there are exceptions to this, [Baen](http://baenebooks.com) being the most obvious), so what do I do? Well, I make my own books.
+> 
+> The logo is released under a Creative Commons Attribution-ShareAlike license by [Readers Bill of Rights](http://readersbillofrights.info). It is created by cartoonist and [QuestionCopyright.org](http://questioncopyright.org) artist-in-residence [Nina Paley](http://blog.ninapaley.com/). You can support Nina's work and view her amazing and Creative Commons licensed film, [Sita Sings the Blues](http://www.sitasingstheblues.com/), over at her website.
+>
+> If you sign up you can, in theory, add your own books to 'our' collection, or You can send me a request and I will find the book for you and put it up here for You. BTC donations are welcome, I will use them to pay for my internet connection, any surplus will be donated to the [Tor project](https://www.torproject.org/), account information on the bottom of every page. The fact that the internet makes this easy is not-a-bug, it is a fact. And if your businessmodel can not handle this fact, you are going out of business. The only question is, will you be allowed to destroy culture before you choke.
 
 ## How to contact
 
