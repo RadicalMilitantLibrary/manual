@@ -30,6 +30,8 @@ until the new name of the platform you could read [about](http://c3jemx2ube5v5zp
 
 *If you sign up you can, in theory, add your own books to 'our' collection, or You can send me a request and I will find the book for you and put it up here for You. BTC donations are welcome, I will use them to pay for my internet connection, any surplus will be donated to the [Tor project](https://www.torproject.org/), account information on the bottom of every page. The fact that the internet makes this easy is not-a-bug, it is a fact. And if your businessmodel can not handle this fact, you are going out of business. The only question is, will you be allowed to destroy culture before you choke.*
 
+<a name="how-to-contact"></a>
+
 ## How to contact
 
 In case you need help or want to chat use *IRC* channel #readingclub on [OFTC](http://www.oftc.net/),
@@ -52,7 +54,7 @@ Everyone is allowed to contribute according to his abilities, choose yourself ho
 
 #### Contest for Librarians
 
-Jorunbane announced on April 25th 2015:
+Jotunbane announced on April 25th 2015:
 
 > I mentioned that there was a rating above "Jedi". The rating is of course "Elite" and you will be hard pressed to get there. But people need an incentive (other than the rating) to actually do it.
 > 
@@ -62,7 +64,7 @@ Jorunbane announced on April 25th 2015:
 
 ### The tools we are using
 
-Some tools should be in place prior starting:
+Some tools should be in place before you can start:
 
 * The [recent template](http://c3jemx2ube5v5zpg.onion/reading_club.odt) provided by Jotunbane
 * reader software for PDF sources: for Linux and on Windows [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
@@ -72,7 +74,8 @@ Some tools should be in place prior starting:
     - The extension [Pepito Cleaner](http://extensions.libreoffice.org/extension-center/pepito-cleaner)
 * Text editor with Search & Replace like e.g. Geany (Linux) or Notepad++ (Windows)
 * for removing DRM follow documentation on the nets, e.g.
-    - [for Adobe DRM on ePUB](http://www.dvdvideosoftware.org/guide/remove-drm-from-adobe-epub.html)
+    - [3 methods for removing DRM from ePUB on Adobe DE](http://epubee.com/remove-drm-from-epub-on-adobe.html)
+    - [for Kindle DRM](https://www.gitlab.com/lazy-book-crowd/jrc-manual/blob/master/howto-undrm-kindle.md)
 
 # Step 1: Creating the Document Page
 
@@ -554,14 +557,17 @@ For such a conversion invoke:
 
     pandoc -s -t odt -o <output file> <input file>
 
-At the time of writing it remeins unsure, how much manual postprocessing is needed after this step.
-
 ### Contributing Code / torifying 
 
-Jotunbane uses *svn* via *tor*, so if you want to contribute to him, make use of that software. For an account ask him directly; best after contributing several books.
-You may also contribute on the [git-repositories](https://gitlab.com/lazy-book-crowd/) under community control.
+Contribution got really easy in late 2016. The only thing you need now is a webbrowser and an account on [GitHub](https://github.com/). Just try to be familiar with things you write about -- maybe even try to publish a book first to know what is is like -- or raise your questions as an issue in the repossitories of the organization [RadicalMilitantLibrary](https://github.com/RadicalMilitantLibrary/).
+
+#### torify
+
+The fastest way to clone over tor might be `torify`, just prepend the command to your git operations towards the server. But keep in mind that this might be an easy but not the most secure of setups.
 
 #### Configuring Subversion for connection over tor
+
+**outdated**: The project now uses git, if you still have a svn repository, have a look on `git-svn`.
 
 To use the [SVN](http://c3jemx2ube5v5zpg.onion/svn/reading_club/trunk) read [TorifyHOWTO](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Misc#SubVersionSVN).
 It's mainly editing the two lines for host and port in the file <code>~/.subversion/servers</code>. You may also edit user credentials. 
@@ -573,7 +579,6 @@ That's almost it.
 * If you are still having problems, pm  more experienced [librarians](http://c3jemx2ube5v5zpg.onion/?function=librarians).
 * If you have any suggestions for the manual, have a look on the [git-repository of the manual](https://github.com/RadicalMilitantLibrary/manual/).
 * For suggestions/feature requests for the system, think about reading other ideas or [even writing an issue](https://github.com/RadicalMilitantLibrary/www/issues). If it is urgent, simply contact *Jotunbane*.
-* contact is possible via PM, or other ways mentioned in the section [How to contact] above.
 * Use keybindings (aka shortcuts) for styles as discribed in [determine shortcuts for styles] - it will help a lot and you will be a lot faster.
 * When you have done more than 10 books. PM me. I will show you more advanced ways of accomplishing the task.
 
