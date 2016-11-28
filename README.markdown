@@ -11,9 +11,7 @@ If you found some mistakes or can help to enhance this, do not hesitate to let u
 
 All contributors should be aware that the collective result is published under [Creative Commons](https://creativecommons.org/) Attribution Share-Alike 4.0 or later as long as not stated otherwise.
 
-The Logo the Library uses refers to [ReadersBillofRights.info](http://readersbillofrights.info/RAD), it was designed by [Nina Paley]. Her work is licensed under [Version 3.0](https://creativecommons.org/licenses/by-sa/3.0/). 
-(Clarification : It is created by Nina Paley FOR the Readers Bill of Rights, RBoR then released it under CC-BY-SA 4.0)
-
+The Logo the Library uses refers to the [Readers Bill of Rights (RBoR)](http://readersbillofrights.info/RAD/). It is *created by* [Nina Paley] *for* the [RBoR, who then released it](http://readersbillofrights.info/librariansagainstDRM/) *under* [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
 
 
 [ewa4boeker]: https://github.com/ewa4boeker/
