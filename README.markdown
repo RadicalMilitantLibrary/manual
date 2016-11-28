@@ -13,9 +13,10 @@ All contributors should be aware that the collective result is published under [
 
 The Logo the Library uses refers to the [Readers Bill of Rights (RBoR)](http://readersbillofrights.info/RAD/). It is *created by* [Nina Paley] *for* the [RBoR, who then released it](http://readersbillofrights.info/librariansagainstDRM/) *under* [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
+[kittyhawk]: https://gitlab.com/kittyhawk/
 [ewa4boeker]: https://github.com/ewa4boeker/
 [Jotunbane]: https://github.com/Jotunbane/
-[nek0]: https://gitlab.com/nek0/
+[nek0]: https://nek0.eu/
 [Nina Paley]: http://blog.ninapaley.com/
 
 ## how to build
