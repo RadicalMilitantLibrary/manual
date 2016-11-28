@@ -2,7 +2,7 @@
 
 # The Radical Militant Manual
 
-[This is really a community thing](./readingclub-man.markdown), written by the librarians [kittyhawk], [ewa4boeker] and others.
+[This is really a community thing](./readingclub-man.markdown), written by the librarians [kittyhawk], [ewa4boeker], [Jotunbane], [nek0] and others.
 
 Read first and then maybe add your own experiences.
 If you found some mistakes or can help to enhance this, do not hesitate to let us know.
@@ -11,10 +11,11 @@ If you found some mistakes or can help to enhance this, do not hesitate to let u
 
 All contributors should be aware that the collective result is published under [Creative Commons](https://creativecommons.org/) Attribution Share-Alike 4.0 or later as long as not stated otherwise.
 
-The Logo the Library uses refers to the [Readers Bill of Rights (RBoR)](http://readersbillofrights.info/RAD/). It is *created by* [Nina Paley] *for* the [RBoR, who then released it](http://readersbillofrights.info/librariansagainstDRM/) *under* [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
-
+The Logo the Library uses refers to the [Readers Bill of Rights (RBoR)](http://readersbillofrights.info/RAD/). It is *created by* [Nina Paley] *for* the [RBoR, who then released it](http://readersbillofrights.info/librariansagainstDRM/) *under* [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 [ewa4boeker]: https://github.com/ewa4boeker/
+[Jotunbane]: https://github.com/Jotunbane/
+[nek0]: https://gitlab.com/nek0/
 [Nina Paley]: http://blog.ninapaley.com/
 
 ## how to build
