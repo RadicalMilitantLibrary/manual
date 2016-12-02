@@ -183,6 +183,9 @@ It will only result in errors if you do so. The available styles are:
 
 * Book
 * BookNoTOC
+* BoxEnd
+* BoxHead
+* BoxStart
 * Chapter
 * ChapterNoTOC
 * HangingBlankOver
@@ -362,7 +365,7 @@ So, we'll put a little html to finnish the list ourselves.
 
 * This is third list, last item. &lt;/ul&gt;
 
-This will end the Second List. Problem Solved. Now in case the Third List has one item only(List Start).
+This will end the Second List. Problem Solved. Now in case the Third List has one item only (ListStart).
 We can manually put &lt;/ul&gt; at the end of it's only item and end it. Then we'll put another &lt;/ul&gt; to end
 the second list.
 
@@ -370,6 +373,8 @@ the second list.
 
 If this seems confusing, you need to try it out yourself.
 Take a look at Game of Thrones by George R. R. Martin for examples.
+
+And if you have a list that continues counting after another paragraph of text, simply do not end the list and continue with ListItem after. 
 
 ### Part
 
@@ -403,11 +408,11 @@ The difference between them is that ParaPreBlankOver will have a blank line over
 
 ### Footnotes
 
-Footnotes are easy. Have your footnotes ready in a separate file to have quicker access to them.
+Footnotes are easy. E.g. have your footnotes ready in a separate file to have quicker access to them.
 
 * Copy one footnote.
 * Place your cursor where you want to insert the footnote.
-* Select from the menu: Insert/Footnote (shortcut: Alt+i, Alt+. And press enter). Leave the numbering to automatic and press enter.
+* Select from the menu: Insert/Footnote (shortcut in English version: Alt+i, Alt+. And press enter; you may configure this yourself). Leave the numbering to automatic and press enter.
 * The cursor will go to the bottom of the page. Paste the footnote there.
 * Select all(Ctrl+A) and clear direct formatting(Ctrl+M).
 * Give it the style Footnote from the style and formatting window.
@@ -452,6 +457,10 @@ but subsequent lines in the paragraph are indented. Hanging indents are typicall
 Hanging Indent paragraph looks like this:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas ut massa vel hendrerit. Curabitur rutrum venenatis lorem, eget dictum libero pretium vitae. Donec rutrum dolor felis, eget tempus quam luctus at. Nunc eu dolor tellus. Etiam quis felis at est euismod cursus. Aenean eget ligula non lacus convallis scelerisque id eu justo. Aenean luctus arcu quis dolor imperdiet blandit. Pellentesque congue vehicula nunc, eget porta purus.
+
+### Boxes with BoxStart, BoxHead and BoxEnd
+
+In some books there is boxed content needed. For quite a while we abused different citation and quotation to improvise. But with those it is really easy. So just make an empty paragraph with the Styles of BoxStart and BoxEnd, you may also use then to hold content of the box. Besides the BoxHead can be used anywhere in the box, usually in first or last line. Other lines in between can be styled differently and will be inside the box still.
 
 # Dealing with Errors
 
