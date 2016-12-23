@@ -66,16 +66,27 @@ Jotunbane announced on April 25th 2015:
 
 Some tools should be in place before you can start:
 
-* The [recent template](http://c3jemx2ube5v5zpg.onion/reading_club.odt) provided by Jotunbane
-* reader software for PDF sources: for Linux and on Windows [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
+* The recent [template] provided by Jotunbane
+* reader software for PDF sources: for GNU/Linux and on Windows [Evince](https://wiki.gnome.org/Apps/Evince/Downloads), or for Windows only [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 * [Calibre](http://calibre-ebook.com/download) suit for e-book management, editing and conversion
 * [Libre&nbsp;Office](https://www.libreoffice.org/download/) or [Open&nbsp;Office](https://www.openoffice.org/download/index.html) for using the template
     - The extension [AltSearch](http://extensions.libreoffice.org/extension-center/alternative-dialog-find-replace-for-writer)
     - The extension [Pepito Cleaner](http://extensions.libreoffice.org/extension-center/pepito-cleaner)
-* Text editor with Search & Replace like e.g. Geany (Linux) or Notepad++ (Windows)
+* Text editor with Search & Replace like e.g. [Geany](https://www.geany.org/Download/Releases) (GNU/Linux, MacOS, Windows) or such as Notepad++ (Windows)
 * for removing DRM follow documentation on the nets, e.g.
     - [3 methods for removing DRM from ePUB on Adobe DE](http://epubee.com/remove-drm-from-epub-on-adobe.html)
     - [for Kindle DRM](https://www.gitlab.com/lazy-book-crowd/jrc-manual/blob/master/howto-undrm-kindle.md)
+
+[template]: http://c3jemx2ube5v5zpg.onion/reading_club.odt
+
+### Alternative Tooling: Portable Apps
+
+Good news for all those users that claim they cannot install those programs on computers in reach: You do not have to install anything. It can reside portable on a USB Stick or any directory of your choice. Some examples for Windows:
+
+* For converting books and organizing your own copies: [Calibre Portable](http://calibre-ebook.com/download_portable)
+* For viewing PDF-Files: [Evince](http://portableapps.com/apps/office/evince_portable)
+* For editing with the [template]: [Libre Office Portable](https://www.libreoffice.org/download/portable-versions/), to this you may add the extensions mentioned above as well
+* For works on (e.g. XML, HTML or Markdown) source inkl. reguluar expressions: [Geany Portable](http://portableapps.com/apps/development/geany_portable)
 
 # Step 1: Creating the Document Page
 
