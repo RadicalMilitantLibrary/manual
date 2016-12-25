@@ -26,7 +26,7 @@ OFN_EPUB = $(FN).epub
 OFN_DOCX = $(FN).docx
 OF = $(OFN_LOG) $(OFN_HTM) $(OFN_TEX) $(OFN_ODT) $(OFN_EPUB) $(OFN_PDF) $(OFN_DOCX)
 #drop lengthy outfor for commands
-NOOUT = > $(OFN_LOG) #/dev/null
+NOOUT = >> $(OFN_LOG) #/dev/null
 NOERR = 2>&1
 
 ###
@@ -81,12 +81,10 @@ odt:
 docx:
 	$(PANDOC) -s -f markdown -t odt -o $(OFN_DOCX) $(IFN_MD) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted includegraphics successfully: "$(OFN_DOCX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution on: "$(OFN_DOCX)""
 
-#delete targets
-clean:
-	@rm -f *.aux *.toc || true 
-	@rm -f *.out >/dev/null 2>&1 || true
-
 #delete intermediate files
+clean:
+	@rm -f *.out *.aux *.toc *.log || true 
+
+#delete targets
 cleanall: clean
-	@rm -f *.log $(NOOUT) $(NOERR) || true
-	@rm -f $(OF) $(NOOUT) $(NOERR) || true
+	@rm -f $(OF) || true
