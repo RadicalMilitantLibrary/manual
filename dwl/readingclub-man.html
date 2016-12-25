@@ -47,6 +47,8 @@
 <li>Report problems or commit solutions to make the process easier for the next one</li>
 <li>Donate for the project to express your gratitude - easiest is sending Bitcoin to the address provided on the website</li>
 <li>Find new people that can do at least one of the things above or love the provided books at the very leats</li>
+<li>Read books, that is the main purpose of a library; online or offline</li>
+<li>Comment and rate the books you read and let others know what you think about the topic or what was (not) nice</li>
 </ol>
 <h4 id="contest-for-librarians">Contest for Librarians</h4>
 <p>Jotunbane announced on April 25th 2015:</p>
@@ -74,15 +76,17 @@
 </ul></li>
 </ul>
 <h3 id="alternative-tooling-portable-apps">Alternative Tooling: Portable Apps</h3>
-<p>Good news for all those users that claim they cannot install those programs on computers in reach: You do not have to install anything. It can reside portable on a USB Stick or any directory of your choice. Some examples for Windows:</p>
+<p>Good news for all the users that (think they) cannot install those programs on computers in their reach: You do not have to install anything. That stuff can reside portable on a USB Stick or any directory of your choice. Some examples for Windows:</p>
 <ul>
 <li>For converting books and organizing your own copies: <a href="http://calibre-ebook.com/download_portable">Calibre Portable</a></li>
 <li>For viewing PDF-Files: <a href="http://portableapps.com/apps/office/evince_portable">Evince</a></li>
 <li>For editing with the <a href="http://c3jemx2ube5v5zpg.onion/reading_club.odt">template</a>: <a href="https://www.libreoffice.org/download/portable-versions/">Libre Office Portable</a>, to this you may add the extensions mentioned above as well</li>
 <li>For works on (e.g. XML, HTML or Markdown) source inkl. reguluar expressions: <a href="http://portableapps.com/apps/development/geany_portable">Geany Portable</a></li>
 </ul>
+<h1 id="step-0-sign-up">Step 0: Sign Up</h1>
+<p>The navigations offers &quot;Login&quot; where you will also find the pssibility to &quot;Sign Up&quot;. Please read the tiny text next to that form carefully, it is there for a purpose.</p>
 <h1 id="step-1-creating-the-document-page">Step 1: Creating the Document Page</h1>
-<p>At this point, I assume you have signed up for the club and are logged in while you follow the next steps.</p>
+<p>At this point, I assume you have signed up for the library by creating an account and are logged in while you follow the next steps.</p>
 <ul>
 <li>Go to your <em>&quot;User Page&quot;</em> if not there already by clicking the button on the menu on the left side of the page.</li>
 <li>At the bottom of your User Page, click the button <em>&quot;New Document&quot;</em>.</li>
@@ -94,7 +98,7 @@
 <li>In <strong>Keywords</strong>, you can enter the other genres that the book belongs to. Other things that the book is about. Some examples might be: wizards, vampires, magical realm etc. Separate each word by a comma. For more examples look at other books in the library.</li>
 <li>In <strong>Colophon</strong>, follow this pattern to collect as well metadata that is not in the system yet:
 <ul>
-<li>First Published in [Date] by [Publisher]</li>
+<li>First Published on [Date] by [Publisher]</li>
 <li>ISBN/ISBN13. Any other reference number, e.g. Google or Amazon as you can find out with e.g. Calibre.</li>
 <li>(in case of) Series: [Name of series] #[number of the book]</li>
 <li>Language (if not English), original title and language as well as translator(s)</li>
@@ -104,7 +108,7 @@
 <li>(optional) External Links to the book or mention connected works like movies (link e.g. on IMDB)</li>
 </ul></li>
 </ul>
-<p>Dedications, Acknowledgement and alike shall be included in first or last sides of a book, best do as the original does. IDs and registration numbers you can add as well. Copyleft or official online resources are fine. Just don't mention any other copyright or publisher information such as addresses.</p>
+<p>Dedications, Acknowledgement and alike shall be included in first or last sides of a book, best do as the original does. IDs and registration numbers you can add as well. Copyleft or official online resources are fine as well as possibilieties for donating to the creative people behind the works included. Just don't mention any other copyright or publisher information such as addresses.</p>
 <ul>
 <li>In <strong>Teaser</strong>, you have to give the summary of the book, description etc. Don't make it too long. Two to three paragraphs max. You can give links to any movie adaption of the book here.</li>
 <li>Next find a good first edition (necessary) <strong>cover</strong> of the book. You can search for the cover e.g. on <a href="http://images.google.com">Google image search</a>. To prevent too large images (that cannot be rendered by some ebook readers) please limit image size to (this has to be checked!) about 1 MB file size and a width of 800 pixel. Choose the desired cover image file.</li>
@@ -436,7 +440,7 @@
 <p>For quick and easy conversions from EPUB to ODT you can also use <a href="http://pandoc.org">pandoc</a>. For such a conversion invoke:</p>
 <pre><code>pandoc -s -t odt -o &lt;output file&gt; &lt;input file&gt;</code></pre>
 <h3 id="contributing-code-torifying">Contributing Code / torifying</h3>
-<p>Contribution got really easy in late 2016. The only thing you need now is a webbrowser and an account on <a href="https://github.com/">GitHub</a>. Just try to be familiar with things you write about -- maybe even try to publish a book first to know what is is like -- or raise your questions as an issue in the repossitories of the organization <a href="https://github.com/RadicalMilitantLibrary/">RadicalMilitantLibrary</a>.</p>
+<p>Contributing got really easy in late 2016. The only things you need now is a webbrowser and an account on <a href="https://github.com/">GitHub</a>. Just try to be familiar with topics you write about -- maybe even try to publish a book first to know what is is like -- or raise your questions as an issue in the repositories of the organization <a href="https://github.com/RadicalMilitantLibrary/">RadicalMilitantLibrary</a>.</p>
 <h4 id="torify">torify</h4>
 <p>The fastest way to clone over tor might be <code>torify</code>, just prepend the command to your git operations towards the server. But keep in mind that this might be an easy but not the most secure of setups.</p>
 <h4 id="configuring-subversion-for-connection-over-tor">Configuring Subversion for connection over tor</h4>
@@ -449,6 +453,7 @@
 <li>If you have any suggestions for the manual, have a look on the <a href="https://github.com/RadicalMilitantLibrary/manual/">git-repository of the manual</a>.</li>
 <li>For suggestions/feature requests for the system, think about reading other ideas or <a href="https://github.com/RadicalMilitantLibrary/www/issues">even writing an issue</a>. If it is urgent, simply contact <em>Jotunbane</em>.</li>
 <li>Use keybindings (aka shortcuts) for styles as discribed in [determine shortcuts for styles] - it will help a lot and you will be a lot faster.</li>
+<li>maybe read about &quot;regular expressions&quot; for cleanup and preparing HTML or other textbased sources or fixing problems with the resulting XML in the (F)ODT files.</li>
 <li>When you have done more than 10 books. PM me. I will show you more advanced ways of accomplishing the task.</li>
 </ul>
 <p>Love, KittyHawk :)</p>
