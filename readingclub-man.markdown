@@ -92,13 +92,13 @@ Good news for all the users that (think they) cannot install those programs on c
 
 # Step 0: Sign Up
 
-The navigations offers "Login" where you will also find the pssibility to "Sign Up". Please read the tiny text next to that form carefully, it is there for a purpose.
+The navigations offers "Login" where you will also find the possibility to "Sign Up". Please read the tiny text next to that form carefully, it is there for a purpose.
 
 # Step 1: Creating the Document Page
 
 At this point, I assume you have signed up for the library by creating an account and are logged in while you follow the next steps. 
 
-* Go to your *"User Page"* if not there already by clicking the button on the menu on the left side of the page. 
+* Go to your *"User Page"*; if not there already navigate by clicking the button *My Page* on the menu on the navigation. 
 * At the bottom of your User Page, click the button *"New Document"*.
 * A new page will open. Select the **Author** of the Book from the Dropdown. If the author does not exist yet, please write a message to Jotunbane and request the author. You can continue nevertheless and select "Unknown" and edit this information later. For now there is no Support for multiple authors/creators nor contributors as there was no need seen for the first years. The best way to have features like this is to publish a book that needs them, so don't. If there is a pseudonym or pen name for an author or even the book has been written by a character of some story, give a note of it in the Colophon. The author shall be represented with a real name as long as the person is known or has been revealed after publishing.
 * Now select the **Subject**. The library is based upon *[Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification)*. On other sites and online libraries you will see that a book belongs to several genres. Please don't confuse it with genres. A book belongs to only one subject. That subject is its main genre usually. For example, Lord of the Rings belongs to the subject "Fantasy". But it belongs to the genres adventure, magic, classic etc. But the main genre is fantasy. So the subject will be that.
@@ -129,7 +129,7 @@ Congrats. you have taken the first hurdles. I hope you remain with us till the e
 
 # Step 2: Preparing the Document
 
-Before preparing the document, you should know what kind of format is the document. Right-click the file click properties. The format is written front of "Type of File" These are some of the main formats:
+Before preparing the document, you should know what kind of file type is the document. Right-click the file click properties. The file type is written front of "Type of File" These are some of the main "formats":
 
 1. PDF aka portable documents format
 2. EPUB aka electronic publication (epub)
