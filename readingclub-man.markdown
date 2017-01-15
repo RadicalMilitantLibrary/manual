@@ -68,7 +68,7 @@ Jotunbane announced on April 25th 2015:
 
 Some tools should be in place before you can start:
 
-* The recent [template] provided by Jotunbane
+* The recent [template] (link available via Tor!) provided by Jotunbane
 * reader software for PDF sources: for GNU/Linux and on Windows [Evince](https://wiki.gnome.org/Apps/Evince/Downloads), or for Windows only [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 * [Calibre](http://calibre-ebook.com/download) suit for e-book management, editing and conversion
 * [Libre&nbsp;Office](https://www.libreoffice.org/download/) or [Open&nbsp;Office](https://www.openoffice.org/download/index.html) for using the template
@@ -174,7 +174,7 @@ I will be working on .pdf. They usually are the hardest to do due to page size d
 ### When the source file is EPUB
 
 * For EPUB files I convert them to HTML and then insert them (not copy-paste) in the template. To insert a document click Insert on the Main Menu in Libre&nbsp;Office. At the end of the drop down list, select File and the select the HTML file. Same goes for Mobipocket (convert them to HTML etc.)
-* To convert an EPUB to HTML you can either use online services or you can use the AVS Document Converter. AVS is only for windows users and is proprietary. It can handle all the major formats. Alternatively, use Calibre. Its both convenient and will manage all your books in one place. Its free and available on all platforms. Using Calibre, convert your books to HTMLZ. HTMLZ is basically a zip file. Open it with a zip utility and you have your HTML file inside it. Note: When you convert a book with images using Calibre to HTMLZ, and then insert it inside the template, the images are only linked. It means whenever you move the book to another place, it will unlink the images so you will only see empty boxes instead of images. The solution is to import all the images one by one.
+* To convert an EPUB to HTML you can either use online services or you can use the AVS Document Converter. AVS is only for windows users and is proprietary. It can handle all the major formats. Alternatively, use Calibre. It is both convenient and will manage all your books in one place. It is free and available on all platforms. Using Calibre, convert your books to HTMLZ. HTMLZ is basically a zip file. Exrtact it with a zip utility and you have your HTML file `index.html`. Note: When you convert a book with images using Calibre to HTMLZ, and then insert it inside the template, the images are only linked. It means whenever you move the book to another place, it will unlink the images so you will only see empty boxes instead of images. One solution is to import all the images one by one. A better one is to break links (via Edit / Links) befor moving the ODT file.
 
 ### When the source is RTF/HTML
 
@@ -373,8 +373,8 @@ Can you see the problem here? The second list doesn't have a second item, and we
 The second ListEnd will be considered the end to Second list. Now, the first list is left hanging.
 The first list hasn't ended and consequently we can't create another list.
 This one is one of the simple problems. It gets more complex when the third list doesn't have a ListEnd.
-So, how do we solve this? Its pretty easy actually.
-Its better if you solve it online using the System's editing tools. 
+So, how do we solve this? It is pretty easy actually.
+It is better if you solve it online using the System's editing tools. 
 So, in this case what's our problem?
 The problem is that we don't have a ListEnd – a last item for Second List.
 If there was a last item it would have come after Third List's last item.
@@ -500,7 +500,7 @@ Once you have cleared the document. Then Upload it.
 * If this is the case, Click Let's see it. This will take you to the document page.
 * Check again to make sure you have all the chapters and everything is okay.
 * Check the book in HTML preview - unfortunately not every kind of error is detected by the system. Do not forget: does everything show up as you intended? All elements such as pictures, lists and tables as well as footnotes and other formatting ...
-* Only after everything is fine, click "Publish". Voila! Its done, after a brief review your book will appear on the Home Page.
+* Only after everything is fine, click "Publish". Voila! It is done, after a brief review your book will appear on the Home Page.
 * If there are errors such as P1, P2... P99 etc. Click *Let's see it*. This will take you to the document page.
 * This is important! before reuploading a new version: Click "Flush".
 * Go back and fix the errors in your source document OR you can fix the errors online. Your choice :)
