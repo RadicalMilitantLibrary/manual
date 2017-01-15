@@ -521,16 +521,16 @@ I use *Geany* for this kind of work on almost every book to prepare it for impor
 
 #### Example: Replace not recognized *italics*
 
-Sometimes the styles in EPUB sources are done with CSS instead of the basic HTML tags that Libre Office will recognize when a file is inserted. Then the fasted way to fix the issue is to hit on the HTML source file after conversion.
+Sometimes the styles in EPUB sources are done with CSS instead of the basic HTML tags that Libre Office will recognize when a file is inserted. Then the fastest way to fix the issue is to edit the HTML source file after conversion.
 When the italics are marked with e.g. `<em class="italic">Text</em>`, then we wish to replace that by `<i>Text</i>`.
 
-* Search: `<em class="italic">([^<])</em>`
+* Search: `<em class="italic">([^<]*)</em>`
 * Replace: `<i>\1</i>`
-* Then replace in document with the corresponding function.
+* Then use "Replace All" with the button "In Document"
 
-As a result Libre Office will now recognize the italics.
+As a result Libre Office will recognize the italics.
 
-As you might guess **bolds** work the same way, just replace things like `<strong>Text</strong>` or `<span class="">Text</span>`  with `<b>Text</b>`.
+As you might guess other character styles like **bolds** work the same way, just replace things like `<strong>Text</strong>` or `<span class="">Text</span>`  with `<b>Text</b>`.
 
 ***Basic Knowledge of HTML & XML Required***
 
