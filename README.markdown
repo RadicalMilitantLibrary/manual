@@ -7,6 +7,12 @@
 Read first and then maybe add your own experiences.
 If you found some mistakes or can help to enhance this, do not hesitate to let us know.
 
+## For Download
+
+You may [build yourself](#how-to-build) or download files from following release:
+
+* [Dec 2016](/RadicalMilitantLibrary/manual/tree/release-2016-12/dwl) (e.g. [EPUB](/RadicalMilitantLibrary/manual/blob/release-2016-12/dwl/readingclub-man.epub), [ODT](/RadicalMilitantLibrary/manual/blob/release-2016-12/dwl/readingclub-man.odt), [PDF](/RadicalMilitantLibrary/manual/blob/release-2016-12/dwl/readingclub-man.pdf))
+
 ## License Terms
 
 All contributors should be aware that the collective result is published under [Creative Commons](https://creativecommons.org/) Attribution Share-Alike 4.0 or later as long as not stated otherwise.
@@ -19,7 +25,7 @@ The Logo the Library uses refers to the [Readers Bill of Rights (RBoR)](http://r
 [nek0]: https://nek0.eu/
 [Nina Paley]: http://blog.ninapaley.com/
 
-## how to build
+## How to build
 
 in case you have the converter [pandoc](https://github.com/jgm/pandoc/) you can have it as TeX, HTML, ODT and many more;
 for PDF you will need [pdflatex with e.g. TeX live](https://tug.org/texlive/) or a tool of your choice to convert yourself.
