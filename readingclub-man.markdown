@@ -20,15 +20,17 @@ until the new name of the platform you could read [about](http://c3jemx2ube5v5zp
 
 &nbsp;
 
-*I'm not going to write long moral arguments about why I think a page like this simply has to exist.*
-*Lets just say I got tired of ebooks that looked like they where made in a hurry, and since I had the skill set to do something about it, well here we are. You can reach me by mail, or on [IRC](http://www.oftc.net/), if you have any complaints.*
+> I'm not going to write long moral arguments about why I think a page like this simply has to exist.
+> Lets just say I got tired of ebooks that looked like they where made in a hurry, and since I had the skill set to do something about it, well here we are. You can reach me by mail, or on [IRC](http://www.oftc.net/), if you have any complaints.
+> 
+> That leads us to 'Why?'. The first reason is obvious, because I can. The second reason is a bit more complicated, but I consider this my 'proof' that current copyright legislation is doomed. I also made this because I needed it myself and nobody wanted to sell me anything even remotely similar. Which is actually weird, since this is the single most obvious thing to have a computer handle, with all the benefits that include.
+> Instead they all wanted to sell me locked-down 'TV versions' of books that had all sorts of weird restrictions and they even had the nerve to make them more expensive than their paper alter-ego. This is called 'shooting yourself in both feet at the same time'. For one, I'm not going to pay more for a product that does less. And second, I'm not going back to paper. Now I have nowhere to buy my books (there are exceptions to this, [Baen](http://baenebooks.com) being the most obvious), so what do I do? Well, I make my own books.
+> 
+> The logo is released under a Creative Commons Attribution-ShareAlike license by [Readers Bill of Rights](http://readersbillofrights.info). It is created by cartoonist and [QuestionCopyright.org](http://questioncopyright.org) artist-in-residence [Nina Paley](http://blog.ninapaley.com/). You can support Nina's work and view her amazing and Creative Commons licensed film, [Sita Sings the Blues](http://www.sitasingstheblues.com/), over at her website.
+>
+> If you sign up you can, in theory, add your own books to 'our' collection, or You can send me a request and I will find the book for you and put it up here for You. BTC donations are welcome, I will use them to pay for my internet connection, any surplus will be donated to the [Tor project](https://www.torproject.org/), account information on the bottom of every page. The fact that the internet makes this easy is not-a-bug, it is a fact. And if your businessmodel can not handle this fact, you are going out of business. The only question is, will you be allowed to destroy culture before you choke.
 
-*That leads us to 'Why?'. The first reason is obvious, because I can. The second reason is a bit more complicated, but I consider this my 'proof' that current copyright legislation is doomed. I also made this because I needed it myself and nobody wanted to sell me anything even remotely similar. Which is actually weird, since this is the single most obvious thing to have a computer handle, with all the benefits that include.*
-*Instead they all wanted to sell me locked-down 'TV versions' of books that had all sorts of weird restrictions and they even had the nerve to make them more expensive than their paper alter-ego. This is called 'shooting yourself in both feet at the same time'. For one, I'm not going to pay more for a product that does less. And second, I'm not going back to paper. Now I have nowhere to buy my books (there are exceptions to this, [Baen](http://baenebooks.com) being the most obvious), so what do I do? Well, I make my own books.*
-
-*The logo is released under a Creative Commons Attribution-ShareAlike license by [Readers Bill of Rights](http://readersbillofrights.info). It is created by cartoonist and [QuestionCopyright.org](http://questioncopyright.org) artist-in-residence [Nina Paley](http://blog.ninapaley.com/). You can support Nina's work and view her amazing and Creative Commons licensed film, [Sita Sings the Blues](http://www.sitasingstheblues.com/), over at her website.*
-
-*If you sign up you can, in theory, add your own books to 'our' collection, or You can send me a request and I will find the book for you and put it up here for You. BTC donations are welcome, I will use them to pay for my internet connection, any surplus will be donated to the [Tor project](https://www.torproject.org/), account information on the bottom of every page. The fact that the internet makes this easy is not-a-bug, it is a fact. And if your businessmodel can not handle this fact, you are going out of business. The only question is, will you be allowed to destroy culture before you choke.*
+<a name="how-to-contact"></a>
 
 ## How to contact
 
@@ -45,38 +47,56 @@ You are always welcome to solve any issue you might find, not solely by creating
 Everyone is allowed to contribute according to his abilities, choose yourself how you want to help:
 
 1. By creating books for the library using our system
-2. If you find the 1st too hard, you can tell other people about it, thats not so hard
+2. If you find the 1st too hard, you can tell other people about it, that's not so hard
 3. Report problems or commit solutions to make the process easier for the next one
 4. Donate for the project to express your gratitude - easiest is sending Bitcoin to the address provided on the website
-5. Find new people that can do at least one of the things above or love the provided books at the very leats
+5. Find new people that can do at least one of the things above or love the provided books at the very least
+6. Read books, that is the main purpose of a library; online or offline
+7. Comment and rate the books you read and let others know what you think about the topic or what was (not) nice
 
 #### Contest for Librarians
 
-Jorunbane announced on April 25th 2015:
+Jotunbane announced on April 25th 2015:
 
 > I mentioned that there was a rating above "Jedi". The rating is of course "Elite" and you will be hard pressed to get there. But people need an incentive (other than the rating) to actually do it.
 > 
-> So here goes. If you reach a librarian rating of "Elite" you will win a [Cybook Ocean](http://www.bookeen.com/en/cybook-ocean) (the prize may change over time, but will always be the top-model). That leaves the problem of handing out prizes on an anonymous system, we will cross that bridge when we get there.
+> So here it goes. If you reach a librarian rating of "Elite" you will win a [Cybook Ocean](http://www.bookeen.com/en/cybook-ocean) (the prize may change over time, but will always be the top-model). That leaves the problem of handing out prizes on an anonymous system, we will cross that bridge when we get there.
 > 
 > Happy Hunting. 
 
 ### The tools we are using
 
-Some tools should be in place prior starting:
+Some tools should be in place before you can start:
 
-* The [recent template](http://c3jemx2ube5v5zpg.onion/reading_club.odt) provided by Jotunbane
-* reader software for PDF sources: for Linux and on Windows [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
+* The recent [template] provided by Jotunbane
+* reader software for PDF sources: for GNU/Linux and on Windows [Evince](https://wiki.gnome.org/Apps/Evince/Downloads), or for Windows only [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 * [Calibre](http://calibre-ebook.com/download) suit for e-book management, editing and conversion
 * [Libre&nbsp;Office](https://www.libreoffice.org/download/) or [Open&nbsp;Office](https://www.openoffice.org/download/index.html) for using the template
     - The extension [AltSearch](http://extensions.libreoffice.org/extension-center/alternative-dialog-find-replace-for-writer)
     - The extension [Pepito Cleaner](http://extensions.libreoffice.org/extension-center/pepito-cleaner)
-* Text editor with Search & Replace like e.g. Geany (Linux) or Notepad++ (Windows)
+* Text editor with Search & Replace like e.g. [Geany](https://www.geany.org/Download/Releases) (GNU/Linux, MacOS, Windows) or such as Notepad++ (Windows)
 * for removing DRM follow documentation on the nets, e.g.
-    - [for Adobe DRM on ePUB](http://www.dvdvideosoftware.org/guide/remove-drm-from-adobe-epub.html)
+    - [3 methods for removing DRM from ePUB on Adobe DE](http://epubee.com/remove-drm-from-epub-on-adobe.html)
+    - [for Kindle DRM](https://www.gitlab.com/lazy-book-crowd/jrc-manual/blob/master/howto-undrm-kindle.md)
+
+[template]: http://c3jemx2ube5v5zpg.onion/reading_club.odt
+
+### Alternative Tooling: Portable Apps
+
+Good news for all the users that (think they) cannot install those programs on computers in their reach: You do not have to install anything. That stuff can reside portable on a USB Stick or any directory of your choice. Some examples for Windows:
+
+* For converting books and organizing your own copies: [Calibre Portable](http://calibre-ebook.com/download_portable)
+* For viewing PDF-Files: [Evince](http://portableapps.com/apps/office/evince_portable)
+* For editing with the [template]: [Libre Office Portable](https://www.libreoffice.org/download/portable-versions/), to this you may add the extensions mentioned above as well
+* For works on (e.g. XML, HTML or Markdown) source inkl. reguluar expressions: [Geany Portable](http://portableapps.com/apps/development/geany_portable)
+
+# Step 0: Sign Up
+
+The navigations offers "Login" where you will also find the pssibility to "Sign Up". Please read the tiny text next to that form carefully, it is there for a purpose.
 
 # Step 1: Creating the Document Page
 
-At this point, I assume you have signed up for the club and are logged in while you follow the next steps. 
+At this point, I assume you have signed up for the library by creating an account and are logged in while you follow the next steps. 
 
 * Go to your *"User Page"* if not there already by clicking the button on the menu on the left side of the page. 
 * At the bottom of your User Page, click the button *"New Document"*.
@@ -87,7 +107,7 @@ At this point, I assume you have signed up for the club and are logged in while 
 * Don't mess with **Unique ID**, just leave it as it is. [More explanation if you want]
 * In **Keywords**, you can enter the other genres that the book belongs to. Other things that the book is about. Some examples might be: wizards, vampires, magical realm etc. Separate each word by a comma. For more examples look at other books in the library.
 * In **Colophon**, follow this pattern to collect as well metadata that is not in the system yet:
-    - First Published in [Date] by [Publisher]
+    - First Published on [Date] by [Publisher]
     - ISBN/ISBN13. Any other reference number, e.g. Google or Amazon as you can find out with e.g. Calibre.
     - (in case of) Series: [Name of series] #[number of the book]
     - Language (if not English), original title and language as well as translator(s)
@@ -98,7 +118,7 @@ At this point, I assume you have signed up for the club and are logged in while 
 
 Dedications, Acknowledgement and alike shall be included in first or last sides of a book, best do as the original does.
 IDs and registration numbers you can add as well.
-Copyleft or official online resources are fine.
+Copyleft or official online resources are fine as well as possibilieties for donating to the creative people behind the works included.
 Just don't mention any other copyright or publisher information such as addresses.
 
 * In **Teaser**, you have to give the summary of the book, description etc. Don't make it too long. Two to three paragraphs max. You can give links to any movie adaption of the book here.
@@ -180,6 +200,9 @@ It will only result in errors if you do so. The available styles are:
 
 * Book
 * BookNoTOC
+* BoxEnd
+* BoxHead
+* BoxStart
 * Chapter
 * ChapterNoTOC
 * HangingBlankOver
@@ -359,7 +382,7 @@ So, we'll put a little html to finnish the list ourselves.
 
 * This is third list, last item. &lt;/ul&gt;
 
-This will end the Second List. Problem Solved. Now in case the Third List has one item only(List Start).
+This will end the Second List. Problem Solved. Now in case the Third List has one item only (ListStart).
 We can manually put &lt;/ul&gt; at the end of it's only item and end it. Then we'll put another &lt;/ul&gt; to end
 the second list.
 
@@ -367,6 +390,8 @@ the second list.
 
 If this seems confusing, you need to try it out yourself.
 Take a look at Game of Thrones by George R. R. Martin for examples.
+
+And if you have a list that continues counting after another paragraph of text, simply do not end the list and continue with ListItem after. 
 
 ### Part
 
@@ -400,11 +425,11 @@ The difference between them is that ParaPreBlankOver will have a blank line over
 
 ### Footnotes
 
-Footnotes are easy. Have your footnotes ready in a separate file to have quicker access to them.
+Footnotes are easy. E.g. have your footnotes ready in a separate file to have quicker access to them.
 
 * Copy one footnote.
 * Place your cursor where you want to insert the footnote.
-* Select from the menu: Insert/Footnote (shortcut: Alt+i, Alt+. And press enter). Leave the numbering to automatic and press enter.
+* Select from the menu: Insert/Footnote (shortcut in English version: Alt+i, Alt+. And press enter; you may configure this yourself). Leave the numbering to automatic and press enter.
 * The cursor will go to the bottom of the page. Paste the footnote there.
 * Select all(Ctrl+A) and clear direct formatting(Ctrl+M).
 * Give it the style Footnote from the style and formatting window.
@@ -449,6 +474,10 @@ but subsequent lines in the paragraph are indented. Hanging indents are typicall
 Hanging Indent paragraph looks like this:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas ut massa vel hendrerit. Curabitur rutrum venenatis lorem, eget dictum libero pretium vitae. Donec rutrum dolor felis, eget tempus quam luctus at. Nunc eu dolor tellus. Etiam quis felis at est euismod cursus. Aenean eget ligula non lacus convallis scelerisque id eu justo. Aenean luctus arcu quis dolor imperdiet blandit. Pellentesque congue vehicula nunc, eget porta purus.
+
+### Boxes with BoxStart, BoxHead and BoxEnd
+
+In some books there is boxed content needed. For quite a while we abused different citation and quotation to improvise. But with those it is really easy. So just make an empty paragraph with the Styles of BoxStart and BoxEnd, you may also use then to hold content of the box. Besides the BoxHead can be used anywhere in the box, usually in first or last line. Other lines in between can be styled differently and will be inside the box still.
 
 # Dealing with Errors
 
@@ -554,14 +583,17 @@ For such a conversion invoke:
 
     pandoc -s -t odt -o <output file> <input file>
 
-At the time of writing it remeins unsure, how much manual postprocessing is needed after this step.
-
 ### Contributing Code / torifying 
 
-Jotunbane uses *svn* via *tor*, so if you want to contribute to him, make use of that software. For an account ask him directly; best after contributing several books.
-You may also contribute on the [git-repositories](https://gitlab.com/lazy-book-crowd/) under community control.
+Contributing got really easy in late 2016. The only things you need now is a webbrowser and an account on [GitHub](https://github.com/). Just try to be familiar with topics you write about -- maybe even try to publish a book first to know what is is like -- or raise your questions as an issue in the repositories of the organization [RadicalMilitantLibrary](https://github.com/RadicalMilitantLibrary/).
+
+#### torify
+
+The fastest way to clone over tor might be `torify`, just prepend the command to your git operations towards the server. But keep in mind that this might be an easy but not the most secure of setups.
 
 #### Configuring Subversion for connection over tor
+
+**outdated**: The project now uses git, if you still have a svn repository, have a look on `git-svn`.
 
 To use the [SVN](http://c3jemx2ube5v5zpg.onion/svn/reading_club/trunk) read [TorifyHOWTO](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Misc#SubVersionSVN).
 It's mainly editing the two lines for host and port in the file <code>~/.subversion/servers</code>. You may also edit user credentials. 
@@ -573,8 +605,8 @@ That's almost it.
 * If you are still having problems, pm  more experienced [librarians](http://c3jemx2ube5v5zpg.onion/?function=librarians).
 * If you have any suggestions for the manual, have a look on the [git-repository of the manual](https://github.com/RadicalMilitantLibrary/manual/).
 * For suggestions/feature requests for the system, think about reading other ideas or [even writing an issue](https://github.com/RadicalMilitantLibrary/www/issues). If it is urgent, simply contact *Jotunbane*.
-* contact is possible via PM, or other ways mentioned in the section [How to contact] above.
 * Use keybindings (aka shortcuts) for styles as discribed in [determine shortcuts for styles] - it will help a lot and you will be a lot faster.
+* maybe read about "regular expressions" for cleanup and preparing HTML or other textbased sources or fixing problems with the resulting XML in the (F)ODT files.
 * When you have done more than 10 books. PM me. I will show you more advanced ways of accomplishing the task.
 
 Love,

@@ -13,7 +13,7 @@ SED		?= sed
 #file name
 FN = readingclub-man
 #input filename
-IFN_MD = $(FN).md
+IFN_MD = $(FN).markdown
 #template(s) and additions for generated tex file(s)
 TFN_TEX = $(FN)-wrapper.tex
 #output filenames
@@ -23,10 +23,11 @@ OFN_TEX = $(FN).tex
 OFN_PDF = $(FN).pdf
 OFN_ODT = $(FN).odt
 OFN_EPUB = $(FN).epub
-OF = $(OFN_LOG) $(OFN_HTM) $(OFN_TEX) $(OFN_ODT)
+OFN_DOCX = $(FN).docx
+OF = $(OFN_LOG) $(OFN_HTM) $(OFN_TEX) $(OFN_ODT) $(OFN_EPUB) $(OFN_PDF) $(OFN_DOCX)
 #drop lengthy outfor for commands
-#NOOUT = > $(OFN_LOG) #/dev/null
-#NOERR = 2>&1
+NOOUT = >> $(OFN_LOG) #/dev/null
+NOERR = 2>&1
 
 ###
 #
@@ -46,41 +47,44 @@ OF = $(OFN_LOG) $(OFN_HTM) $(OFN_TEX) $(OFN_ODT)
 all: html5 pdf epub
 
 html5:
-	@$(PANDOC) -s -f markdown -t html5 -o $(OFN_HTM) $(IFN_MD) $(NOOUT) $(NOERR) && echo "[ K ] "$@" created successfully: "$(OFN_HTM) || echo "[ E ] "$@" failed on: "$(OFN_HTM)""
+	@$(PANDOC) -s -f markdown -t html5 -o $(OFN_HTM) $(IFN_MD) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" created successfully: "$(OFN_HTM) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed on: "$(OFN_HTM)""
 
 epub:
-	@$(PANDOC) -s -f markdown -t epub -o $(OFN_EPUB) $(IFN_MD) $(NOOUT) $(NOERR) && echo "[ K ] "$@" created successfully: "$(OFN_EPUB) || echo "[ E ] "$@" failed on: "$(OFN_HTM)""
+	@$(PANDOC) -s -f markdown -t epub -o $(OFN_EPUB) $(IFN_MD) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" created successfully: "$(OFN_EPUB) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed on: "$(OFN_HTM)""
 
 htm: html
 
 html:
-	@$(PANDOC) -s -f markdown -t $@ -o $(OFN_HTM) $(IFN_MD) $(NOOUT) $(NOERR) && echo "[ K ] "$@" created successfully: "$(OFN_HTM) || echo "[ E ] "$@" failed on: "$(OFN_HTM)""
+	@$(PANDOC) -s -f markdown -t $@ -o $(OFN_HTM) $(IFN_MD) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" created successfully: "$(OFN_HTM) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed on: "$(OFN_HTM)""
 
 # call translation two times for toc
 pdf: tex
-	@$(PDFTEX) $(TFN_TEX) $(NOOUT) $(NOERR) && echo "[ K ] "$@" created successfully: "$(TFN_TEX) || echo "[ E ] "$@" failed on: "$(TFN_TEX)
-	@$(PDFTEX) $(TFN_TEX) $(NOOUT) $(NOERR) && mv $(FN)-wrapper.pdf $(OFN_PDF) && echo "[ K ] "$@" created successfully: "$(OFN_PDF) || echo "[ E ] "$@" failed on: "$(OFN_PDF)
+	@$(PDFTEX) $(TFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" created successfully: "$(TFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed on: "$(TFN_TEX)
+	@$(PDFTEX) $(TFN_TEX) $(NOOUT) $(NOERR) && mv $(FN)-wrapper.pdf $(OFN_PDF) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" created successfully: "$(OFN_PDF) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed on: "$(OFN_PDF)
 
 tex:
-	@$(PANDOC) -f markdown -t latex -o $(OFN_TEX) $(IFN_MD) && echo "[ K ] "$@" created successfully: "$(OFN_TEX) || echo "[ E ] "$@" failed creation on: "$(OFN_TEX)""
-	@$(SED) -i 's/\includegraphics/\scalegraphics/g' $(OFN_TEX) $(NOOUT) $(NOERR) && echo "[ K ] "$@" substituted includegraphics successfully: "$(OFN_TEX) || echo "[ E ] "$@" failed substitution on: "$(OFN_TEX)""
+	@$(PANDOC) -f markdown -t latex -o $(OFN_TEX) $(IFN_MD) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" created successfully: "$(OFN_TEX) || printf "\033[1;31m[ ❌ ]\033[0;39m "$@" failed creation on: "$(OFN_TEX)""
+	@$(SED) -i 's/\\includegraphics/\\scalegraphics/g' $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted includegraphics successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of includegraphics on: "$(OFN_TEX)""
+	@$(SED) -i 's/\\tightlist//g'  $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted includegraphics successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of includegraphics on: "$(OFN_TEX)""
+	@$(SED) -i 's/\\toprule//g'  $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted toprule successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of toprule on: "$(OFN_TEX)""
+	@$(SED) -i 's/\\midrule//g'  $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted midrule successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of midrule on: "$(OFN_TEX)""
+	@$(SED) -i 's/\\bottomrule//g'  $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted bottomrule successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of bottomrule on: "$(OFN_TEX)""
+	@$(SED) -i 's/\\textbar{}//g'  $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted textbar successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of textbar on: "$(OFN_TEX)""
+#	@$(SED) -i 's/\\scalegraphics{}//g'  $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted scalgraphics successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of scalegraphics on: "$(OFN_TEX)""
+#	@$(SED) -i 's/\[htbp\]//g' $(OFN_TEX) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted float-placement successfully: "$(OFN_TEX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution of float-placement on: "$(OFN_TEX)""
 
 # odt opens in libre office with message: "error reading file" due to old pandoc version (1.11.1)
 # works with e.g. 1.15.1
 odt:
-	$(PANDOC) -s -f markdown -t odt -o $(OFN_ODT) $(IFN_MD) $(NOOUT) $(NOERR) && echo "[ K ] "$@" substituted includegraphics successfully: "$(OFN_ODT) || echo "[ E ] "$@" failed substitution on: "$(OFN_ODT)""
+	$(PANDOC) -s -f markdown -t odt -o $(OFN_ODT) $(IFN_MD) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted includegraphics successfully: "$(OFN_ODT) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution on: "$(OFN_ODT)""
 
-#delete targets
-clean:
-	@rm -f $(OFN_TEX) $(NOOUT) $(NOERR) || true 
-	@rm -f $(OFN_HTM) $(NOOUT) $(NOERR) || true
-	@rm -f $(OFN_ODT) $(NOOUT) $(NOERR) || true
-	@rm -f $(FN).pdf $(NOOUT) $(NOERR) || true
-	@rm -f $(OFN_LOG) $(NOOUT) $(NOERR) || true 
-	@rm -f *.aux *.toc || true 
+docx:
+	$(PANDOC) -s -f markdown -t odt -o $(OFN_DOCX) $(IFN_MD) $(NOOUT) $(NOERR) && echo "\033[1;32m[ ✔ ]\033[0;39m "$@" substituted includegraphics successfully: "$(OFN_DOCX) || echo "\033[1;31m[ ❌ ]\033[0;39m "$@" failed substitution on: "$(OFN_DOCX)""
 
 #delete intermediate files
+clean:
+	@rm -f *.out *.aux *.toc *.log || true 
+
+#delete targets
 cleanall: clean
-	@rm -f *.aux >/dev/null 2>&1 || true
-	@rm -f *.out >/dev/null 2>&1 || true
-	@rm -f *.log >/dev/null 2>&1 || true
+	@rm -f $(OF) || true
