@@ -163,7 +163,7 @@ DO NOT INSERT THE TABLE OF CONTENTS, COVER IMAGE, COPYRIGHT PAGE.
 If you did then just put them in separate files and remove that part from the template.
 The table of contents (TOC) is generated automatically, so no need to store it in a separate file.
 Same goes for the cover page. Be sure to find a good size cover when you create the document.
-I will be working on .pdf. They usually are the hardest to do due to page size difference or bad OCR mainly.
+I will be working on PDF. They usually are the hardest to do due to page size difference or bad OCR mainly.
 
 ### When the source file is PDF
 
@@ -174,7 +174,9 @@ I will be working on .pdf. They usually are the hardest to do due to page size d
 ### When the source file is EPUB
 
 * For EPUB files I convert them to HTML and then insert them (not copy-paste) in the template. To insert a document click Insert on the Main Menu in Libre&nbsp;Office. At the end of the drop down list, select File and the select the HTML file. Same goes for Mobipocket (convert them to HTML etc.)
-* To convert an EPUB to HTML you can either use online services or you can use the AVS Document Converter. AVS is only for windows users and is proprietary. It can handle all the major formats. Alternatively, use Calibre. It is both convenient and will manage all your books in one place. It is free and available on all platforms. Using Calibre, convert your books to HTMLZ. HTMLZ is basically a zip file. Exrtact it with a zip utility and you have your HTML file `index.html`. Note: When you convert a book with images using Calibre to HTMLZ, and then insert it inside the template, the images are only linked. It means whenever you move the book to another place, it will unlink the images so you will only see empty boxes instead of images. One solution is to import all the images one by one. A better one is to break links (via Edit / Links) befor moving the ODT file.
+* To convert an EPUB to HTML you can either use online services or you can use the AVS Document Converter. AVS is only for windows users and is proprietary. It can handle all the major formats. Alternatively, use Calibre. Its both convenient and will manage all your books in one place. Its free and available on all platforms. Using Calibre, convert your books to HTMLZ. HTMLZ is basically a zip file. Open it with a zip utility and you have your HTML file inside it. Note: When you convert a book with images using Calibre to HTMLZ, and then insert it inside the template, the images are only linked. It means whenever you move the book to another place, it will unlink the images so you will only see empty boxes instead of images. The solution is to import all the images one by one.
+* After conversion please make sure that the *italics* and **bolds** are intact. If that is not the case, try fix the HTML source e.g. with *regular expressions* (explained in [Fixing errors in XML](#fixing-errors-in-xml)).
+
 
 ### When the source is RTF/HTML
 
@@ -509,6 +511,27 @@ Once you have cleared the document. Then Upload it.
 * Upload it (after flushing!) as you did before.
 
 ## Fixing errors in XML
+
+If you do not have a clue about XML/HTML and CSS then the tutorials on [w3schools](http://www.w3schools.com/html/default.asp) are a good start.
+
+### Regular Expressions
+
+[RegEx](https://en.wikipedia.org/wiki/Regular_expression) is used to match a set for search and replace. E.g. you can match on numbers, characters, whitespaces (tabs, space, newline, …).
+
+I use *Geany* for this kind of work on almost every book to prepare it for import.
+
+#### Example: Replace not recognized *italics*
+
+Sometimes the styles in EPUB sources are done with CSS instead of the basic HTML tags that Libre Office will recognize when a file is inserted. Then the fastest way to fix the issue is to edit the HTML source file after conversion.
+When the italics are marked with e.g. `<em class="italic">Text</em>`, then we wish to replace that by `<i>Text</i>`.
+
+* Search: `<em class="italic">([^<]*)</em>`
+* Replace: `<i>\1</i>`
+* Then use "Replace All" with the button "In Document"
+
+As a result Libre Office will recognize the italics.
+
+As you might guess other character styles like **bolds** work the same way, just replace things like `<strong>Text</strong>` or `<span class="">Text</span>`  with `<b>Text</b>`.
 
 ***Basic Knowledge of HTML & XML Required***
 
