@@ -47,10 +47,10 @@ You are always welcome to solve any issue you might find, not solely by creating
 Everyone is allowed to contribute according to his abilities, choose yourself how you want to help:
 
 1. By creating books for the library using our system
-2. If you find the 1st too hard, you can tell other people about it, thats not so hard
+2. If you find the 1st too hard, you can tell other people about it, that's not so hard
 3. Report problems or commit solutions to make the process easier for the next one
 4. Donate for the project to express your gratitude - easiest is sending Bitcoin to the address provided on the website
-5. Find new people that can do at least one of the things above or love the provided books at the very leats
+5. Find new people that can do at least one of the things above or love the provided books at the very least
 6. Read books, that is the main purpose of a library; online or offline
 7. Comment and rate the books you read and let others know what you think about the topic or what was (not) nice
 
@@ -60,7 +60,7 @@ Jotunbane announced on April 25th 2015:
 
 > I mentioned that there was a rating above "Jedi". The rating is of course "Elite" and you will be hard pressed to get there. But people need an incentive (other than the rating) to actually do it.
 > 
-> So here goes. If you reach a librarian rating of "Elite" you will win a [Cybook Ocean](http://www.bookeen.com/en/cybook-ocean) (the prize may change over time, but will always be the top-model). That leaves the problem of handing out prizes on an anonymous system, we will cross that bridge when we get there.
+> So here it goes. If you reach a librarian rating of "Elite" you will win a [Cybook Ocean](http://www.bookeen.com/en/cybook-ocean) (the prize may change over time, but will always be the top-model). That leaves the problem of handing out prizes on an anonymous system, we will cross that bridge when we get there.
 > 
 > Happy Hunting. 
 
