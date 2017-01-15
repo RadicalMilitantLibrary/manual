@@ -72,7 +72,7 @@ Some tools should be in place before you can start:
 * reader software for PDF sources: for GNU/Linux and on Windows [Evince](https://wiki.gnome.org/Apps/Evince/Downloads), or for Windows only [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 * [Calibre](http://calibre-ebook.com/download) suit for e-book management, editing and conversion
 * [Libre&nbsp;Office](https://www.libreoffice.org/download/) or [Open&nbsp;Office](https://www.openoffice.org/download/index.html) for using the template
-    - The extension [AltSearch](http://extensions.libreoffice.org/extension-center/alternative-dialog-find-replace-for-writer)
+    - The extension [AltSearch](https://extensions.libreoffice.org/extensions/alternative-dialog-find-replace-for-writer)
     - The extension [Pepito Cleaner](http://extensions.libreoffice.org/extension-center/pepito-cleaner)
 * Text editor with Search & Replace like e.g. [Geany](https://www.geany.org/Download/Releases) (GNU/Linux, MacOS, Windows) or such as Notepad++ (Windows)
 * for removing DRM follow documentation on the nets, e.g.
