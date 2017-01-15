@@ -2,7 +2,7 @@
 
 # The Radical Militant Manual
 
-[This is really a community thing](./readingclub-man.markdown), written by the librarians [kittyhawk], [ewa4boeker], [Jotunbane] and contributors like [nek0].
+[This Manual](./readingclub-man.markdown) is really a community thing, written by the librarians [kittyhawk], [ewa4boeker], [Jotunbane] and contributors like [nek0].
 
 Read first and then maybe add your own experiences.
 If you found some mistakes or can help to enhance this, do not hesitate to let us know.
