@@ -47,10 +47,10 @@ You are always welcome to solve any issue you might find, not solely by creating
 Everyone is allowed to contribute according to his abilities, choose yourself how you want to help:
 
 1. By creating books for the library using our system
-2. If you find the 1st too hard, you can tell other people about it, thats not so hard
+2. If you find the 1st too hard, you can tell other people about it, that's not so hard
 3. Report problems or commit solutions to make the process easier for the next one
 4. Donate for the project to express your gratitude - easiest is sending Bitcoin to the address provided on the website
-5. Find new people that can do at least one of the things above or love the provided books at the very leats
+5. Find new people that can do at least one of the things above or love the provided books at the very least
 6. Read books, that is the main purpose of a library; online or offline
 7. Comment and rate the books you read and let others know what you think about the topic or what was (not) nice
 
@@ -60,7 +60,7 @@ Jotunbane announced on April 25th 2015:
 
 > I mentioned that there was a rating above "Jedi". The rating is of course "Elite" and you will be hard pressed to get there. But people need an incentive (other than the rating) to actually do it.
 > 
-> So here goes. If you reach a librarian rating of "Elite" you will win a [Cybook Ocean](http://www.bookeen.com/en/cybook-ocean) (the prize may change over time, but will always be the top-model). That leaves the problem of handing out prizes on an anonymous system, we will cross that bridge when we get there.
+> So here it goes. If you reach a librarian rating of "Elite" you will win a [Cybook Ocean](http://www.bookeen.com/en/cybook-ocean) (the prize may change over time, but will always be the top-model). That leaves the problem of handing out prizes on an anonymous system, we will cross that bridge when we get there.
 > 
 > Happy Hunting. 
 
@@ -68,11 +68,11 @@ Jotunbane announced on April 25th 2015:
 
 Some tools should be in place before you can start:
 
-* The recent [template] provided by Jotunbane
+* The recent [template] (link available via Tor!) provided by Jotunbane
 * reader software for PDF sources: for GNU/Linux and on Windows [Evince](https://wiki.gnome.org/Apps/Evince/Downloads), or for Windows only [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 * [Calibre](http://calibre-ebook.com/download) suit for e-book management, editing and conversion
 * [Libre&nbsp;Office](https://www.libreoffice.org/download/) or [Open&nbsp;Office](https://www.openoffice.org/download/index.html) for using the template
-    - The extension [AltSearch](http://extensions.libreoffice.org/extension-center/alternative-dialog-find-replace-for-writer)
+    - The extension [AltSearch](https://extensions.libreoffice.org/extensions/alternative-dialog-find-replace-for-writer)
     - The extension [Pepito Cleaner](http://extensions.libreoffice.org/extension-center/pepito-cleaner)
 * Text editor with Search & Replace like e.g. [Geany](https://www.geany.org/Download/Releases) (GNU/Linux, MacOS, Windows) or such as Notepad++ (Windows)
 * for removing DRM follow documentation on the nets, e.g.
@@ -92,13 +92,13 @@ Good news for all the users that (think they) cannot install those programs on c
 
 # Step 0: Sign Up
 
-The navigations offers "Login" where you will also find the pssibility to "Sign Up". Please read the tiny text next to that form carefully, it is there for a purpose.
+The navigations offers "Login" where you will also find the possibility to "Sign Up". Please read the tiny text next to that form carefully, it is there for a purpose.
 
 # Step 1: Creating the Document Page
 
 At this point, I assume you have signed up for the library by creating an account and are logged in while you follow the next steps. 
 
-* Go to your *"User Page"* if not there already by clicking the button on the menu on the left side of the page. 
+* Go to your *"User Page"*; if not there already navigate by clicking the button *My Page* on the menu on the navigation. 
 * At the bottom of your User Page, click the button *"New Document"*.
 * A new page will open. Select the **Author** of the Book from the Dropdown. If the author does not exist yet, please write a message to Jotunbane and request the author. You can continue nevertheless and select "Unknown" and edit this information later. For now there is no Support for multiple authors/creators nor contributors as there was no need seen for the first years. The best way to have features like this is to publish a book that needs them, so don't. If there is a pseudonym or pen name for an author or even the book has been written by a character of some story, give a note of it in the Colophon. The author shall be represented with a real name as long as the person is known or has been revealed after publishing.
 * Now select the **Subject**. The library is based upon *[Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification)*. On other sites and online libraries you will see that a book belongs to several genres. Please don't confuse it with genres. A book belongs to only one subject. That subject is its main genre usually. For example, Lord of the Rings belongs to the subject "Fantasy". But it belongs to the genres adventure, magic, classic etc. But the main genre is fantasy. So the subject will be that.
@@ -129,7 +129,7 @@ Congrats. you have taken the first hurdles. I hope you remain with us till the e
 
 # Step 2: Preparing the Document
 
-Before preparing the document, you should know what kind of format is the document. Right-click the file click properties. The format is written front of "Type of File" These are some of the main formats:
+Before preparing the document, you should know what kind of file type is the document. Right-click the file click properties. The file type is written front of "Type of File" These are some of the main "formats":
 
 1. PDF aka portable documents format
 2. EPUB aka electronic publication (epub)
@@ -163,7 +163,7 @@ DO NOT INSERT THE TABLE OF CONTENTS, COVER IMAGE, COPYRIGHT PAGE.
 If you did then just put them in separate files and remove that part from the template.
 The table of contents (TOC) is generated automatically, so no need to store it in a separate file.
 Same goes for the cover page. Be sure to find a good size cover when you create the document.
-I will be working on .pdf. They usually are the hardest to do due to page size difference or bad OCR mainly.
+I will be working on PDF. They usually are the hardest to do due to page size difference or bad OCR mainly.
 
 ### When the source file is PDF
 
@@ -175,6 +175,8 @@ I will be working on .pdf. They usually are the hardest to do due to page size d
 
 * For EPUB files I convert them to HTML and then insert them (not copy-paste) in the template. To insert a document click Insert on the Main Menu in Libre&nbsp;Office. At the end of the drop down list, select File and the select the HTML file. Same goes for Mobipocket (convert them to HTML etc.)
 * To convert an EPUB to HTML you can either use online services or you can use the AVS Document Converter. AVS is only for windows users and is proprietary. It can handle all the major formats. Alternatively, use Calibre. Its both convenient and will manage all your books in one place. Its free and available on all platforms. Using Calibre, convert your books to HTMLZ. HTMLZ is basically a zip file. Open it with a zip utility and you have your HTML file inside it. Note: When you convert a book with images using Calibre to HTMLZ, and then insert it inside the template, the images are only linked. It means whenever you move the book to another place, it will unlink the images so you will only see empty boxes instead of images. The solution is to import all the images one by one.
+* After conversion please make sure that the *italics* and **bolds** are intact. If that is not the case, try fix the HTML source e.g. with *regular expressions* (explained in [Fixing errors in XML](#fixing-errors-in-xml)).
+
 
 ### When the source is RTF/HTML
 
@@ -373,8 +375,8 @@ Can you see the problem here? The second list doesn't have a second item, and we
 The second ListEnd will be considered the end to Second list. Now, the first list is left hanging.
 The first list hasn't ended and consequently we can't create another list.
 This one is one of the simple problems. It gets more complex when the third list doesn't have a ListEnd.
-So, how do we solve this? Its pretty easy actually.
-Its better if you solve it online using the System's editing tools. 
+So, how do we solve this? It is pretty easy actually.
+It is better if you solve it online using the System's editing tools. 
 So, in this case what's our problem?
 The problem is that we don't have a ListEnd – a last item for Second List.
 If there was a last item it would have come after Third List's last item.
@@ -500,7 +502,7 @@ Once you have cleared the document. Then Upload it.
 * If this is the case, Click Let's see it. This will take you to the document page.
 * Check again to make sure you have all the chapters and everything is okay.
 * Check the book in HTML preview - unfortunately not every kind of error is detected by the system. Do not forget: does everything show up as you intended? All elements such as pictures, lists and tables as well as footnotes and other formatting ...
-* Only after everything is fine, click "Publish". Voila! Its done, after a brief review your book will appear on the Home Page.
+* Only after everything is fine, click "Publish". Voila! It is done, after a brief review your book will appear on the Home Page.
 * If there are errors such as P1, P2... P99 etc. Click *Let's see it*. This will take you to the document page.
 * This is important! before reuploading a new version: Click "Flush".
 * Go back and fix the errors in your source document OR you can fix the errors online. Your choice :)
@@ -509,6 +511,27 @@ Once you have cleared the document. Then Upload it.
 * Upload it (after flushing!) as you did before.
 
 ## Fixing errors in XML
+
+If you do not have a clue about XML/HTML and CSS then the tutorials on [w3schools](http://www.w3schools.com/html/default.asp) are a good start.
+
+### Regular Expressions
+
+[RegEx](https://en.wikipedia.org/wiki/Regular_expression) is used to match a set for search and replace. E.g. you can match on numbers, characters, whitespaces (tabs, space, newline, …).
+
+I use *Geany* for this kind of work on almost every book to prepare it for import.
+
+#### Example: Replace not recognized *italics*
+
+Sometimes the styles in EPUB sources are done with CSS instead of the basic HTML tags that Libre Office will recognize when a file is inserted. Then the fastest way to fix the issue is to edit the HTML source file after conversion.
+When the italics are marked with e.g. `<em class="italic">Text</em>`, then we wish to replace that by `<i>Text</i>`.
+
+* Search: `<em class="italic">([^<]*)</em>`
+* Replace: `<i>\1</i>`
+* Then use "Replace All" with the button "In Document"
+
+As a result Libre Office will recognize the italics.
+
+As you might guess other character styles like **bolds** work the same way, just replace things like `<strong>Text</strong>` or `<span class="">Text</span>`  with `<b>Text</b>`.
 
 ***Basic Knowledge of HTML & XML Required***
 
