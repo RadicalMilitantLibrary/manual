@@ -17,7 +17,7 @@ You may [build yourself](#how-to-build) or download files from following release
 
 All contributors should be aware that the collective result is published under [Creative Commons](https://creativecommons.org/) Attribution Share-Alike 4.0 or later as long as not stated otherwise.
 
-The Logo the Library uses refers to the [Readers Bill of Rights (RBoR)](http://readersbillofrights.info/RAD/). It is *created by* [Nina Paley] *for* the [RBoR, who then released it](http://readersbillofrights.info/librariansagainstDRM/) *under* [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+The Logo the Library uses refers to the [Readers Bill of Rights (RBoR)](http://readersbillofrights.info/RAD/). It is *created by* [Nina Paley] *for* the [RBoR, who then released it](http://readersbillofrights.info/librariansagainstDRM/) *under* [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 [kittyhawk]: https://gitlab.com/kittyhawk/
 [ewa4boeker]: https://github.com/ewa4boeker/
